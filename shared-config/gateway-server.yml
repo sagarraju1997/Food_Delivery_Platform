@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: gateway-server
+
+
+# Example: tune CORS or route properties centrally later

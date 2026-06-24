@@ -1,0 +1,11 @@
+# Shared defaults for all services
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+
+# Example common CORS or logging levels can go here
+logging:
+  level:
+    root: INFO

@@ -1,0 +1,6 @@
+# Project exclude paths
+/cart-service/target/
+/config-server/target/
+/discovery-server/target/
+/gateway-server/target/
+/restaurant-service/target/
