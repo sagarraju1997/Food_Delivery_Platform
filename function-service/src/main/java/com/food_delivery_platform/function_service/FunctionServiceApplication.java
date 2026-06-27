@@ -39,6 +39,7 @@ public class FunctionServiceApplication {
 
     @Bean
     public Function<String, Map<String, String>> reverseString() {
+        System.out.println("reverseString invoked..");
         return input -> Map.of("Result",new StringBuilder(input).reverse().toString());
     }
 }
