@@ -1,0 +1,1 @@
+-- Optional schema for H2 when not using ddl-auto
