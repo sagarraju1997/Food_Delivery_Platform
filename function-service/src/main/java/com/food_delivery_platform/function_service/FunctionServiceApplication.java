@@ -2,14 +2,11 @@ package com.food_delivery_platform.function_service;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
-import org.springframework.cloud.function.adapter.aws.FunctionInvoker;
 import org.springframework.context.annotation.Bean;
 
 import java.util.function.Function;
 
 @SpringBootApplication
-@EnableDiscoveryClient
 public class FunctionServiceApplication {
     public static void main(String[] args) {
         SpringApplication.run(FunctionServiceApplication.class, args);
