@@ -4,6 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
+import java.util.Map;
 import java.util.function.Function;
 
 @SpringBootApplication
@@ -37,7 +38,7 @@ public class FunctionServiceApplication {
 //    }
 
     @Bean
-    public Function<String, String> reverseString() {
-        return input -> new StringBuilder(input).reverse().toString();
+    public Function<String, Map<String, String>> reverseString() {
+        return input -> Map.of("Result",new StringBuilder(input).reverse().toString());
     }
 }
