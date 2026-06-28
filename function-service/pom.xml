@@ -67,6 +67,13 @@
             <artifactId>spring-cloud-function-adapter-aws</artifactId>
             <version>4.0.0</version>
         </dependency>
+        <!-- AWS SDK for Java v2 - SES Client -->
+        <dependency>
+            <groupId>software.amazon.awssdk</groupId>
+            <artifactId>sesv2</artifactId>
+            <version>2.25.15</version>
+        </dependency>
+
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
